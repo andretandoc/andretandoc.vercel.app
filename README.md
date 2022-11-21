@@ -1,1 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# aetdc.vercel.app
+Personal Website
+
+Made using Next.js
