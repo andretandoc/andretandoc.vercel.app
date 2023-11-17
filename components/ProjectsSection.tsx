@@ -7,7 +7,7 @@ import SlideUp from './SlideUp'
 const projects = [
     {
         name: "Studium",
-        description: "Studium is a web app designed to consolidate various studying tools onto a single platform.",
+        description: "Studium is a web app designed to consolidate various studying tools onto a single platform. Built during McGill CodeJam 12.",
         image: "/studium.png",
         github: "https://github.com/andretandoc/Studium",
         link: "https://studium-sage.vercel.app/"
