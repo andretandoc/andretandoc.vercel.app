@@ -52,7 +52,7 @@ const AboutSection = () => {
                 </p>
                 <br />
                 <p>
-                "The days are slow, but the years go by fast."
+                &quot;The days are slow, but the years go by fast.&quot;
                 </p>
             </div>
             <div className="md:w-1/2">
