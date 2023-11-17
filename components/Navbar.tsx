@@ -35,12 +35,7 @@ const Navbar = () => {
             <div className="justify-between md:items-center md:flex">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block" >
-                        <Link to="home">
-                            <div>
-                                <h2 className="text-2xl font-bold">Andre Tandoc</h2>
-                                </div>
-                        </Link>
-
+                        <h2 className="text-2xl font-bold">Andre Tandoc</h2>
                     <div className="md:hidden">
                         <button 
                         onClick={()=>setNavbar(!navbar)}
@@ -64,7 +59,7 @@ const Navbar = () => {
                                 key={idx}
                                 to={item.page}
                                 className={
-                                    "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                                    "block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 transition-transform cursor-pointer"
                                 }
                                 activeClass="active"
                                 spy={true}

@@ -7,7 +7,7 @@ import SlideUp from './SlideUp'
 const projects = [
     {
         name: "Studium",
-        description: "Studium is a web app designed to aid students during their studying.",
+        description: "Studium is a web app designed to consolidate various studying tools onto a single platform.",
         image: "/studium.png",
         github: "https://github.com/andretandoc/Studium",
         link: "https://studium-sage.vercel.app/"
@@ -26,7 +26,6 @@ const ProjectsSection = () => {
                 {projects.map((project, idx) => {
                     return (
                         <div key={idx}>
-                            <SlideUp offset="-300px 0px -300px 0px">
                         <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                             <div className="mt-8 md:w-1/2">
                                 <Link href={project.link} target ="_blank">
@@ -61,8 +60,7 @@ const ProjectsSection = () => {
                                         </Link>
                                     </div>
                             </div>
-                        </div>
-                        </SlideUp>
+                            </div>
                     </div>
                     )
                 })}
