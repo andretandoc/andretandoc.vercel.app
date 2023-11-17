@@ -2,17 +2,16 @@ import React from 'react'
 import Image from "next/image"
 
 const skills = [
+    { skill:"Git" },
+    { skill: "TypeScript" },
     { skill:"HTML" },
     { skill: "CSS" },
     { skill:"JavaScript" },
-    { skill: "TypeScript" },
+    { skill: "Node.js" },
     { skill: "React" },
-    { skill:"Next.js" },
-    { skill: "Tailwind CSS" },
     { skill:"Python" },
-    { skill: "Java" },
-    { skill:"Git" },
-    { skill: "GitHub" },
+    { skill: "SQL" },
+    { skill: "R" },
 ]
 
 const AboutSection = () => {
@@ -27,22 +26,33 @@ const AboutSection = () => {
             <div className="md:w-1/2">
                 <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
                     Get to know me</h1>
-                <p>Hello! My name is Andre and I&#39;m currently a full time student
-                    at McGill University studying computer science. 
+                <p>Hello! My name is Andre and I&#39;m currently a full-time student
+                    at McGill University studying computer science and statistics. 
                 </p>
                 <br />
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat.
+                I am an aspiring software engineer who loves learning about new and
+                    emerging technologies. I always strive to challenge myself by 
+                    solving problems using efficient and elegant solutions. 
                 </p>
                 <br />
                 <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.
+                Building applications that will be able to increase the quality
+                    of life of others through simplification or automation is a deep
+                    passion of mine, as it also allows me to grow and acquire new skills
+                    while giving me a creative outlet.
+                </p>
+                <br />
+                <p>
+                Besides that, I enjoy working out, travelling and trying new foods
+                    in the company of good friends. I also love going to concerts and 
+                    discovering new music. During the colder parts of the year (or when my
+                    social battery is drained lol), I prefer to stay inside and play video
+                    games or watch shows!
+                </p>
+                <br />
+                <p>
+                "The days are slow, but the years go by fast."
                 </p>
             </div>
             <div className="md:w-1/2">
@@ -57,7 +67,7 @@ const AboutSection = () => {
                         })}
                     </div>
                 <Image
-                className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-8"
+                className="hidden md:block md:relative md:top-8 md:left-8 md:z-8"
                 src="/about-image.png" 
                 alt="" 
                 width={325} 
