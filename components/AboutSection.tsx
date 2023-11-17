@@ -10,8 +10,9 @@ const skills = [
     { skill: "Node.js" },
     { skill: "React" },
     { skill:"Python" },
-    { skill: "SQL" },
     { skill: "R" },
+    { skill: "SQL" },
+    { skill: "C" },
 ]
 
 const AboutSection = () => {
@@ -48,7 +49,15 @@ const AboutSection = () => {
                     in the company of good friends. I also love going to concerts and 
                     discovering new music. During the colder parts of the year (or when my
                     social battery is drained lol), I prefer to stay inside and play video
-                    games or watch shows!
+                    games or watch shows.
+                </p>
+                <br />
+                <p>
+                Reach out to me via email at 
+                    <span className="font-semibold text-teal-600">
+                    {" "} andrevonvince@gmail.com
+                    </span>
+                    .
                 </p>
                 <br />
                 <p>
